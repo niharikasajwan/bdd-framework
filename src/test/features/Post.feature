@@ -6,7 +6,7 @@ Feature: Post item
         Given use endpoint posts
 
     Scenario: List all Post items
-        When ready all Post item
+        When ready all Post items
         Then I view all Post items
 
     Scenario: Add new Post item
